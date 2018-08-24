@@ -6,6 +6,8 @@ import store from './store'
 // 引用API文件
 import api from './api/index.js'
 
+import './plugins/element.js'
+/* eslint-disable */
 // 将API方法绑定到全局
 Vue.prototype.$api = api
 
